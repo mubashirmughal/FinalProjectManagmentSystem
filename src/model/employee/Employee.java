@@ -5,7 +5,6 @@ import model.vehicle.Vehicle;
 import java.time.LocalDate;
 
 public class Employee {
-
     private String name;
     private int birthYear;
     private int age;
@@ -39,6 +38,4 @@ public class Employee {
     public double annualIncome() {
         return (12 * monthlyIncome * rate / 100);
     }
-
 }
-
