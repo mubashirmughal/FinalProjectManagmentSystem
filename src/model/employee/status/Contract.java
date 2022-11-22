@@ -1,5 +1,5 @@
 package model.employee.status;
 
-public class Contract {
-
+public interface Contract {
+    public double accumulatedSalary();
     }
