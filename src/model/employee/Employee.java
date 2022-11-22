@@ -7,6 +7,7 @@ import java.time.LocalDate;
 public class Employee {
     private String name;
     private int birthYear;
+
     private int age;
     private double monthlyIncome;
     private int rate = 100;
